@@ -1,0 +1,19 @@
+body{
+    background-image: url('/assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 70%;
+}
+p{
+    color: red;
+}
+
+h1{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+}
