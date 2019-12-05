@@ -5,27 +5,32 @@
     width: 80%;
     margin-left: 10%;
     height: 100%;
-    padding: 15%;
+    padding: 12%;
+
 
     align-items: center;
 }
 
-p {
-    color: red;
+.studio p {
+    color: rgb(255, 255, 255);
+}
+.studio h2{
+    color: rgb(255, 255, 255);
 }
 
-h1 {
+/* h1 {
     width: 40px;
     height: 40px;
     padding: 10px;
     text-align: center;
     border: 3px solid white;
-    color: white;
+    color:black;
     border-radius: 50%;
-}
+} */
 
 .aboutUs {
     background-color: white;
+    padding: 5%;
 }
 
 .service {
@@ -45,7 +50,8 @@ h1 {
 .portfolio {
     background-color: white;
 }
-.contactUs{
+
+.contactUs {
     background-image: url('/assets/backgrounds/c_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
