@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Patua One', cursive;
 }
 
 .studio {
@@ -40,6 +40,7 @@ body{
 .aboutUs {
     background-color: white;
     padding: 5%;
+    font-size: 150%;
 }
 
 .service {
@@ -47,7 +48,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-
+    font-size: 150%;
     height: 100%;
     padding: 10%;
 }
