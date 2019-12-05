@@ -1,8 +1,13 @@
-body{
+.studio{
     background-image: url('/assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
-    height: 70%;
+    margin-left: 10%;
+    height: 100%;
+    padding:15%;
+
+    align-items: center;
 }
 p{
     color: red;
@@ -16,4 +21,16 @@ h1{
     border: 3px solid white;
     color: white;
     border-radius: 50%;
+}
+.aboutUs{
+background-color: white;
+}
+.service{
+    background-image: url('/assets/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    padding:3%;
 }
