@@ -2,25 +2,26 @@ body {
     font-family: 'Patua One', cursive;
 }
 
-.studio {
+.container-fluid {
     background-image: url('/assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-
-    height: 100%;
-    padding: 12%;
+    margin:4%;
+    height:100%;
+    padding: 5%;
+    overflow: hidden;
 
 
     align-items: center;
 }
 
-.studio p {
+.container-fluid p {
     color: rgb(255, 255, 255);
 
 }
 
-.studio h2 {
+.container-fluid h2 {
     color: rgb(255, 255, 255);
     font-size: 300%;
     padding: 4%;
@@ -54,6 +55,7 @@ body {
 
 .whatWeDo {
     background-color: white;
+    align-items: center;
 
 }
 
@@ -63,7 +65,8 @@ body {
 
 .portfolio {
     background-color: white;
-
+    display: inline-block;
+    
 
 }
 
@@ -77,8 +80,32 @@ body {
     padding: 10%;
 }
 
+input[type=text], input[type=email]{
+    width: 100%;
+}
+
+#name_email_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
 .filler {
     background-color: white;
     width: 100%;
     padding: 2%;
+}
+.row,
+.row > .column {
+  padding: 1.5%;
+}
+
+.card{
+    padding: 4%;
+   margin:4%;
+}
+
+.social_icons{
+    display: inline;
+    padding:3%;
+    margin:3%;
 }
