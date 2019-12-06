@@ -55,10 +55,16 @@ body{
 
 .whatWeDo {
     background-color: white;
+   
+}
+.weDoLabel{
+    font-size: 150%;
 }
 
 .portfolio {
     background-color: white;
+  
+    
 }
 
 .contactUs {
