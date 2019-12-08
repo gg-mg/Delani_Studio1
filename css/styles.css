@@ -81,3 +81,9 @@ footer{
     margin: 1%;
     width: 300px;
 }
+#development{
+    display: none;
+}
+#design{
+    display: none;
+}
