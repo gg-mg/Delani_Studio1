@@ -7,27 +7,30 @@ $(document).ready(function () {
     $('#design').click(function () {
         $(this).hide();
         $('#design-image').show();
+        event.preventDefault();
     });
 });
 $(document).ready(function () {
-    $("#design-image").click(function () {
+    $("#development-image").click(function () {
         $(this).hide();
         $("#development").show();
     });
 
     $('#development').click(function () {
         $(this).hide();
-        $('#design-image').show();
+        $('#development-image').show();
+        event.preventDefault();
     });
 });
 $(document).ready(function () {
-    $("#design-image").click(function () {
+    $("#product-image").click(function () {
         $(this).hide();
-        $("#product-management").show();
+        $("#product").show();
     });
 
-    $('#product-management').click(function () {
+    $('#product').click(function () {
         $(this).hide();
-        $('#design-image').show();
+        $('#product-image').show();
+        event.preventDefault();
     });
 });
