@@ -8,6 +8,7 @@ body {
     background-size: cover;
     color: white;
     background-repeat: no-repeat;
+    padding:7%;
 
 }
 
@@ -98,11 +99,12 @@ textarea {
     flex-wrap: wrap;
     padding: 3%, 3%, 3%;
     padding-left: 10%;
+    
 }
 
 .img-fluid {
     margin: 1%;
-    width: 220px;
+    width: 300px;
 
 }
 
@@ -134,3 +136,15 @@ textarea {
     color: red;
     font-size: 12pt; 
  }
+.welcome{
+    padding:1%;
+}
+.mouse{
+    padding:1%
+}
+.amazing{
+    padding:1%
+}
+.logo{
+    padding:1%
+}
