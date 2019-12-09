@@ -33,4 +33,18 @@ $(document).ready(function () {
         $('#product-image').show();
         event.preventDefault();
     });
+
+    $('.img-one').hover(function(){
+        $('.proj1').toggle();
+    });
+
+    $('.img-two').hover(function(){
+        $('.proj2').toggle();
+    });
+
+    $('.image-three').hover(function(){
+        $('.proj3').toggle();
+    });
+
+    $('.image')
 });
