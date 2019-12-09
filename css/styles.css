@@ -8,7 +8,7 @@ body {
     background-size: cover;
     color: white;
     background-repeat: no-repeat;
-    
+
 }
 
 
@@ -46,14 +46,16 @@ h3 {
     text-align: center;
 }
 
-.contactUs{
+.contactUs {
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;       
+    width: 100%;
     padding: 5%;
+    text-align: center;
+    color: white;
 
-   
+
 }
 
 .form-group {
@@ -63,9 +65,10 @@ h3 {
 textarea {
     background-color: transparent;
     width: 52%;
-    color: white;
-    margin-top:3%;
+    
+    margin-top: 3%;
     border: 1px solid white;
+
 }
 
 .form-group>input {
@@ -73,9 +76,6 @@ textarea {
     border: 1px solid white;
 }
 
-::placeholder {
-    color: white;
-}
 
 #email {
     width: 60%;
@@ -89,7 +89,7 @@ textarea {
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    margin-left:30%;
+    margin-left: 30%;
 }
 
 
@@ -117,6 +117,20 @@ textarea {
 #product {
     display: none;
 }
-.social_icons{
-    padding:5%;
+
+.social_icons {
+    padding: 7%;
 }
+
+#name::placeholder {
+    color: white;
+}
+
+#email::placeholder {
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: red;
+    font-size: 12pt; 
+ }
