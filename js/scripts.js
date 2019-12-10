@@ -9,8 +9,7 @@ $(document).ready(function () {
         $('#design-image').show();
         event.preventDefault();
     });
-});
-$(document).ready(function () {
+
     $("#development-image").click(function () {
         $(this).hide();
         $("#development").show();
@@ -21,8 +20,7 @@ $(document).ready(function () {
         $('#development-image').show();
         event.preventDefault();
     });
-});
-$(document).ready(function () {
+
     $("#product-image").click(function () {
         $(this).hide();
         $("#product").show();
