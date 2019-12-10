@@ -8,7 +8,7 @@ body {
     background-size: cover;
     color: white;
     background-repeat: no-repeat;
-    padding:7%;
+    padding: 5%;
 
 }
 
@@ -30,21 +30,21 @@ body {
     background-size: cover;
 }
 
-h2 {
+/* h3 {
     text-align: center;
-    
-}
+    padding:5%
+} */
 
 .heading {
     text-align: center;
 }
 
-h3 {
+/* h3 {
     text-align: center;
     color: white;
-}
+} */
 
-.row{
+.row {
     display: flex;
     justify-content: space-around;
 }
@@ -67,32 +67,40 @@ h3 {
 
 textarea {
     background-color: transparent;
-    width: 52%;
+    width: 85%;
     color: white;
     margin-top: 3%;
     border: 1px solid white;
+    text-align: center;
+    text-align: left;
+    margin-top: 0.5%;
 
 }
-
+/* 
 .form-group>input {
     background: inherit;
     border: 1px solid white;
-}
+} */
 
 
 #email {
-    width: 60%;
+    width: 40%;
     background-color: transparent;
-    color: white;
+    color: white; 
     border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 4px;
+
 }
 
 #name {
-    width: 60%;
+    width: 40%;
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    margin-left: 30%;
+    box-sizing: border-box;
+    border-radius: 4px;
+
 }
 
 
@@ -107,12 +115,13 @@ textarea {
     margin: 1%;
     width: 300px;
 
- }
+}
 
- .col-md-4{
-     width: 300px;
-     
- }
+.col-md-4 {
+    width: 300px;
+
+}
+
 #development {
     display: none;
 }
@@ -123,7 +132,7 @@ textarea {
 
 #product {
     display: none;
-} 
+}
 
 .social_icons {
     padding: 7%;
@@ -137,29 +146,36 @@ textarea {
     color: white;
 }
 
-::placeholder { /* Chrome/Opera/Safari */
-    color:white;
+textarea::placeholder {
+    color:white;  
+  }
   
- }
- 
-.welcome{
-    padding:1%;
-}
-.mouse{
-    padding:1%
-}
-.amazing{
-    padding:1%
-}
-.logo{
-    padding:1%
+
+.welcome {
+    padding: 1%;
 }
 
-.card-img-overlay{
+.mouse {
+    padding: 1%
+}
+
+.amazing {
+    padding: 1%
+}
+
+.logo {
+    padding: 1%
+}
+
+.card-img-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
 }
 
-.card-text{
+.card-text {
     color: white;
+}
+
+button {
+    text-align: center;
 }

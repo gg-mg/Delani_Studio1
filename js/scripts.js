@@ -34,17 +34,32 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
-    $('.img-one').hover(function(){
+    $('.img-one').hover(function () {
         $('.proj1').toggle();
     });
 
-    $('.img-two').hover(function(){
+    $('.img-two').hover(function () {
         $('.proj2').toggle();
     });
 
-    $('.image-three').hover(function(){
+    $('.img-three').hover(function () {
         $('.proj3').toggle();
     });
 
-    $('.image')
+    $('.img-four').hover(function () {
+        $('.proj4').toggle();
+    });
+    $('.img-five').hover(function () {
+        $('.proj5').toggle();
+    });
+    $('.img-six').hover(function () {
+        $('.proj6').toggle();
+    });
+    $('.img-seven').hover(function () {
+        $('.proj7').toggle();
+    });
+    $('.img-eight').hover(function () {
+        $('.proj8').toggle();
+    });
+
 });
