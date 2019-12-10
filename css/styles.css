@@ -134,9 +134,7 @@ textarea {
     display: none;
 }
 
-.social_icons {
-    padding: 7%;
-}
+
 
 #name::placeholder {
     color: white;
@@ -178,4 +176,7 @@ textarea::placeholder {
 
 button {
     text-align: center;
+}
+.social_icons{
+    padding:1%;
 }
