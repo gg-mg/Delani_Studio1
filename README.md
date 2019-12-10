@@ -1,4 +1,6 @@
-# IP3
+
+# Application Name
+DELANI STUDIO
 
 ## Known Bugs
 On deployment, the page sometimes displays ~ and IP3.
