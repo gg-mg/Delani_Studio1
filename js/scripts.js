@@ -61,9 +61,9 @@ $(document).ready(function () {
     $('.img-eight').hover(function () {
         $('.proj8').toggle();
     });
-    $(".button").click(function(){
-        var name = document.getElementById('#email').value ;
-        alert('Hey '+ name +", thank you for contacting us. We will get back to you.")
+    $(".button").click(function () {
+        var name = document.getElementById('#email').value;
+        alert('Hey ' + name + ", thank you for contacting us. We will get back to you.")
     });
 
 
