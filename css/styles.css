@@ -108,13 +108,12 @@ textarea {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    padding: 3%, 3%, 3%;
-    margin-left: 4%;
+    /* padding: 3%, 3%, 3%; */
 }
 
 .img-fluid {
     margin: 1%;
-    width: 280px;
+    width: 255px;
 
 }
 
